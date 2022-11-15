@@ -1,7 +1,7 @@
 def sum_list(lista):
     risultato = 0
     if lista == []:
-        return 0
+        return None
     for item in lista:
          risultato = risultato+item
     return risultato
